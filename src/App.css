@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital@1&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tiro Telugu', serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #411741;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin: 2rem 0;
+  text-align: center;
+  color:white;
+}
+
+h2{
+  font-size: 2.4rem;
+  color:whitesmoke;
+}
+
+p{
+  margin: 2rem 0;
+  color: rgba(233, 221, 236, 0.5);
+  font-weight: 400;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+
+span {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.stories-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.card {
+  min-width: 20rem;
+  width:40vw;
+  padding: 4rem;
+  background-color: #4c2755;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 0.5rem;
+  
+}
+
+.card-button {
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-button a {
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  
+ text-decoration: none;
+ background-color: #D83F87;
+ border-radius: 3px;
+ padding: 5px 7px;
+  color:whitesmoke;
+}
+
+.card-button a:last-child {
+  
+  
+  color:whitesmoke;
+}
+
+form{
+  display: grid;
+  place-items: center;
+}
+
+input{
+  padding: 1rem;
+  min-width: 40rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  border: none;
+  border-bottom: 0.2rem solid #15133c;
+  outline: none;
+}
+
+.pagination-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 1rem 2.4rem;
+  border: none;
+  font-size: 1.6rem;
+  background-color: #D83F87;
+  color:#ffffff;
+  margin: 3rem;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 56%;
+  }
+
+  .card {
+    min-width: 45rem;
+    padding: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 51%;
+  }
+
+  .card {
+    min-width: 35rem;
+    padding: 2rem;
+  }
+}
